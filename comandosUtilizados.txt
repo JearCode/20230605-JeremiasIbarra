@@ -1,0 +1,41 @@
+
+  180  git init
+  181  git remote add origin https://github.com/JearCode/20230605-JeremiasIbarra.git
+  182  touch comandos.txt main.js index.html
+  183  git add .
+  184  git commit -m "Commit 01 de jeremiasIbarra"
+  185  git push -u origin main
+  186  git branch feature01
+  187  mkdir Terminal
+  188  rm Terminal
+  189  git checkout feature01
+  190  mkdir Terminal
+  191  mkdir Hardware
+  192  cd Hardware/
+  193  resumen.txt
+  194  cd ..
+  195  cd Terminal/
+  196  ls
+  197  touch resumen.txt
+  198  cd ..
+  199  cd Hardware/
+  200  touch resumen.txt
+  201  git add .
+  202  git commit -m "Commit 02 de jeremiasIbarra"
+  203  git push origin feature01
+  204  cd ..
+  205  git add .
+  206  git commit -m "Commit 03 de jeremiasIbarra"
+  207  git push origin feature01
+  208  git branch feature02
+  209  git checkout feature02
+  210  cd Terminal/
+  211  cd ..
+  212  cd Hardware/
+  213  cd ..
+  214  git add .
+  215  git commit -m "Commit 04 de jeremiasIbarra"
+  216  git push origin feature02
+  217  git switch main
+  218  mv comandos.txt comandosUtilizados.txt
+  219  history > comandosUtilizados.txt 
