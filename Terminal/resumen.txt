@@ -1,0 +1,5 @@
+1. git status
+2. git --version
+3. git commit -m "Mensaje"
+4. git branch
+5. git switch
